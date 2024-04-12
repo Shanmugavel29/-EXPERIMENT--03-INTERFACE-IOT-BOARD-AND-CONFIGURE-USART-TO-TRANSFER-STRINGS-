@@ -52,27 +52,27 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 
 int main(void)
 {
-HAL_Init();
-SystemClock_Config();
-MX_GPIO_Config();
+ HAL_Init();
+ SystemClock_Config();
+ MX_GPIO_Config();
 
-while(1)
+ while(1)
 
-{
+ {
 
-printf(SHANMUGAVEL RM\n212222230142\n)
+ printf(SHANMUGAVEL RM\n212222230142\n)
 
-HAL_Delay(500);
+ HAL_Delay(500);
 
-}
+ }
 
-PUTCAHR_PROTOTYPE
+ PUTCAHR_PROTOTYPE
 
-{
+ {
 
-HAL_UART_Transmit(&huart2, (unit8_t*)&ch, 1, 0xFFFF);
+ HAL_UART_Transmit(&huart2, (unit8_t*)&ch, 1, 0xFFFF);
 
-return ch;
+ return ch;
 }
 
 
