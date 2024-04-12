@@ -60,7 +60,7 @@ int main(void)
 
  {
 
- printf(SHANMUGAVEL RM\n212222230142\n)
+ printf(Name: SHANMUGAVEL RM\n DEPARTMENT: AIDS)
 
  HAL_Delay(500);
 
