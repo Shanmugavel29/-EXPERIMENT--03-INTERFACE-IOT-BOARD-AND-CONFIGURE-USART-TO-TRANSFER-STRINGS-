@@ -38,7 +38,7 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 7. Opend serial port utility and check the outpu t
 
 
-
+```
 ## STM 32 CUBE PROGRAM :
 #include "stdio.h"
 
@@ -74,6 +74,7 @@ int main(void)
 
  return ch;
 }
+```
 
 
 ## Output screen shots of Serial port utility   :
