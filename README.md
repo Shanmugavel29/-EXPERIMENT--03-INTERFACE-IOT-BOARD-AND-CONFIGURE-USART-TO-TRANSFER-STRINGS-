@@ -72,7 +72,6 @@ HAL_UART_Transmit(&huart2, (unit8_t*)&ch, 1, 0xFFFF);
 
 return ch;
 }
-}
 
 
 ## Output screen shots of Serial port utility   :
