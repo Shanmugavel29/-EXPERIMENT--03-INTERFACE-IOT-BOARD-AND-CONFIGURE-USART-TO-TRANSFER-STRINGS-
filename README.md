@@ -50,9 +50,11 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 
 #define PUTCHAR_PROTOTPYE int_io_putchar(int ch)
 
-#endif
 int main(void)
 {
+HAL_Init();
+SystemClock_Config();
+MX_GPIO_Config();
 
 while(1)
 
