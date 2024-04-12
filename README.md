@@ -51,6 +51,8 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 #define PUTCHAR_PROTOTPYE int_io_putchar(int ch)
 
 #endif
+int main(void)
+{
 
 while(1)
 
@@ -69,6 +71,7 @@ PUTCAHR_PROTOTYPE
 HAL_UART_Transmit(&huart2, (unit8_t*)&ch, 1, 0xFFFF);
 
 return ch;
+}
 }
 
 
