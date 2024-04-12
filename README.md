@@ -56,7 +56,7 @@ while(1)
 
 {
 
-printf(deepika\n212223230038\n)
+printf(SHANMUGAVEL RM\n212222230142\n)
 
 HAL_Delay(500);
 
